@@ -1,0 +1,6 @@
+- ✅ VPC
+- ✅ Public subnet
+- ✅ Private subnet
+- ✅ NAT Gateway
+- ✅ Internet Gateway
+- ✅ Route tables
