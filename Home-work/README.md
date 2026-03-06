@@ -11,11 +11,13 @@
 
 
 ```
-VPC
- ├── Public Subnet
- │      └── Internet Gateway
+aws_vpc
+ ├── aws_internet_gateway
+ ├── aws_subnet (public)
+ │      ├── aws_route_table (public)
+ │      └── aws_nat_gateway
  │
- └── Private Subnet
-        └── NAT Gateway
+ └── aws_subnet (private)
+        └── aws_route_table (private)
 
 ```
